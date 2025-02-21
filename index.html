@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Projeto Cordel</title>
+    <style>
+        @font-face {
+            font-family: "titulo";
+            src: url(./fontes/the_bold_font/THEBOLDFONT-FREEVERSION.otf);
+        }
+        @font-face {
+            font-family: "p";
+            src: url(./fontes/bakso_daging/BaksoDaging-Regular.otf);
+        }
+        * {margin: 0px; padding: 0px;}
+        header {
+            color: white;
+            background-color: black;
+            text-align: center;
+            padding: 85px;
+        }
+        h1 {
+            font-family: "titulo";
+            font-size: 110px;
+        }
+        h2 {
+            font-family: sans-serif;
+            font-weight: 100;
+            font-size: 17px;
+        }
+        a {
+            font-family: sans-serif;
+            text-decoration: none; color: rgb(255, 255, 255);
+            font-weight: 500;
+            font-size: 20px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .branco {
+            background-color: white;
+            padding: 10vh 0px;
+            margin-left: 35px;
+        }
+        .img {
+            background-size: 100%;
+            background-repeat: no-repeat;
+            padding: 10vh 36px;
+            background-attachment: fixed;
+            box-shadow: inset 6px 6px 13px 10px rgba(0, 0, 0, 0.486);
+        }
+        div {
+            background-color: rgba(0, 0, 0, 0.555);
+            width: 500px;
+        }
+        #imagem1 {
+            background-image: url(https://cdn.pixabay.com/photo/2013/07/18/10/56/ladybug-163480_1280.jpg);
+            background-size: cover;
+        }
+        #imagem2 {
+            background-image: url(https://cdn.pixabay.com/photo/2019/09/16/23/03/bible-4482169_1280.jpg);
+            background-size: cover;
+        }
+        .letra {
+            color: white;
+            text-shadow: 1px 1px 1px 1px;
+        }
+        p {
+            font-size: 60px;
+            font-family: "p";
+            font-weight: 100px;
+            line-height: 10vh;
+            padding: 5px;
+        }
+        footer {
+            background-color: black;
+            padding: 20px;
+            text-align: center;
+        }
+        #footer {
+            color: white;
+            font-family: sans-serif;
+            font-size: 20px;
+            padding: 0px;
+            line-height: 10px;
+        }
+        #footer>strong:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Cordel Moderno</h1>
+        <h2>Por <a href="https://www.recantodasletras.com.br/autor_textos.php?id=9806" target="_blank">Milton Duarte</a></h2>
+    </header>
+    <section class="branco">
+        <p>
+            Lorem ipsum dolor <br>
+             adipisicing elit. <br>
+             similique  <br>
+              quibusdam asperiores. <br>
+              dolores blanditiis!<br>
+        </p>
+    </section>
+    <section class="img" id="imagem1">
+        <div>
+            <p class="letra">
+                Lorem ipsum dolor  <br>
+                adipisicing elit. <br>
+                 dolores maxime  <br>
+                 at, quas vitae  <br>
+                  reprehenderit eaque  <br>
+                        </div>
+            </p>
+    </section>
+    <section class="branco">
+        <p>
+            Lorem ipsum dolor  <br>
+             consectetur  <br>
+              Ipsam, sunt. Excepturi <br>
+               ratione delectus  <br>
+                facilis. Alias  <br>
+        </p>
+    </section>
+    <section class="img" id="imagem2">
+        <div>
+            <p class="letra">
+                Lorem ipsum dolor <br>
+                 consectetur,  <br>
+                  Nemo cupiditate  <br>
+                   rerum sapiente <br>
+                    perspiciatis aliquid, <br>
+            </p>
+        </div>
+    </section>
+    <section class="branco">
+        <p>
+            Lorem ipsum dolor ,<br>
+             consectetur adipisicing  <br>
+              Ipsam, sunt.  <br>
+               ratione delectus <br>
+                facilis. Alias<br>
+                 maiores atque <br>
+        </p>
+    </section>
+    <footer>
+        <p id="footer">Site criado por <strong>Caetano Boschetti</strong> para aprendizado</p>
+    </footer>
+</body>
+</html>
